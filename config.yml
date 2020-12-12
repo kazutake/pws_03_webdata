@@ -1,0 +1,23 @@
+# url data
+url : 'http://www1.river.go.jp/cgi-bin/DspWaterData.exe?KIND=6&ID='
+
+# dir for saving data
+data_dir : './data'
+
+# flg file is saved in the data_dir
+all_csv_save : True
+all_fig_save : True 
+csv_save : false
+
+# date
+start_date : "2016-04-01"
+end_date : "2016-11-30"
+
+# observation id list
+obs_id :
+  - ['301031281104080', "Asahibshi" ]
+  - ['301031281104090', "Inou"]
+  - ['301031281101100', "Ishikarioohashi"]
+
+
+
